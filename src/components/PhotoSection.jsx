@@ -8,9 +8,8 @@ const images = [
   "/creative/3.jpg",
   "/creative/4.jpg",
   "/creative/5.jpg",
-  "/creative/6.jpeg",
-  "/creative/7.jpeg",
-  
+  "/creative/6.jpg",
+  "/creative/7.jpg"
 ];
 
 export default function GallerySection() {
@@ -108,4 +107,5 @@ export default function GallerySection() {
 </section>
   );
 }
+
 
