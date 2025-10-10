@@ -175,7 +175,7 @@ export const ContactSection = () => {
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
               >
-                {isSubmitting ? "Đang gửi..." : "Send Message"}
+                {isSubmitting ? "Đang gửi..." : "Gửi đi"}
                 <Send size={16} />
               </button>
             </form>
@@ -185,4 +185,5 @@ export const ContactSection = () => {
     </section>
   );
 };
+
 
