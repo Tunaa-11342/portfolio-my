@@ -52,8 +52,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+        Dưới đây là một số dự án gần đây của tôi. Mỗi dự án đều được thực hiện với sự tỉ mỉ trong từng chi tiết, chú trọng đến hiệu năng và trải nghiệm người dùng.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -112,11 +111,12 @@ export const ProjectsSection = () => {
             target="_blank"
             href="https://github.com/Tunaa-11342"
           >
-            Check My Github <ArrowRight size={16} />
+            Github <ArrowRight size={16} />
           </a>
         </div>
       </div>
     </section>
   );
 };
+
 
