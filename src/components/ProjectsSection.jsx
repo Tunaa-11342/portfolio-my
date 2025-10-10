@@ -7,7 +7,7 @@ const projects = [
     description: "A custom redesign of YouTube with blurred glass-style UI.",
     image: "/projects/project1.png",
     tags: ["Css", "TailwindCSS", "JavaScript"],
-    demoUrl: "#",
+    demoUrl: "https://github.com/Tunaa-11342/portfolio-my",
     githubUrl: "#",
   },
   {
@@ -119,3 +119,4 @@ export const ProjectsSection = () => {
     </section>
   );
 };
+
