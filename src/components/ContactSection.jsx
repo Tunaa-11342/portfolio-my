@@ -23,8 +23,8 @@ export const ContactSection = () => {
 
     setTimeout(() => {
       toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+        title: "Đã gửi tin nhắn!",
+        description: "Cảm ơn bạn đã nhắn tin. Tôi sẽ sớm liên lạc lại với bạn.",
       });
       setIsSubmitting(false);
     }, 1500);
@@ -37,14 +37,14 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Whether you’re looking for a designer, a developer, or simply someone to bring your vision to life, don’t hesitate to send me a message. Let’s create something amazing together.
+          Dù bạn đang tìm một nhà thiết kế, một lập trình viên, hay đơn giản là người có thể biến ý tưởng của bạn thành hiện thực — đừng ngần ngại liên hệ với tôi. Hãy cùng nhau tạo nên điều tuyệt vời!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
-              Contact Information
+              Thông tin liên hệ
             </h3>
 
             <div className="space-y-6 justify-center">
@@ -90,7 +90,7 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
+              <h4 className="font-medium mb-4"> Liên lạc với tôi</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
                   <Linkedin />
@@ -112,7 +112,7 @@ export const ContactSection = () => {
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
-            <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+            <h3 className="text-2xl font-semibold mb-6">Bạn có thể liên lạc với tôi bất kỳ lúc nào</h3>
 
             <form className="space-y-6">
               <div>
@@ -121,7 +121,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Name
+                  Tên bạn là?
                 </label>
                 <input
                   type="text"
@@ -139,7 +139,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Email
+                  Email
                 </label>
                 <input
                   type="email"
@@ -157,7 +157,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Message
+                  Tin nhắn của bạn
                 </label>
                 <textarea
                   id="message"
@@ -175,7 +175,7 @@ export const ContactSection = () => {
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
+                {isSubmitting ? "Đang gửi..." : "Send Message"}
                 <Send size={16} />
               </button>
             </form>
@@ -185,3 +185,4 @@ export const ContactSection = () => {
     </section>
   );
 };
+
