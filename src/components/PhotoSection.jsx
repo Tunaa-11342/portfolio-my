@@ -56,7 +56,7 @@ export default function GallerySection() {
           target="_blank"
           href="https://github.com/Tunaa-11342"
         >
-          Explore More <ArrowRight size={16} />
+          Tìm hiểu thêm <ArrowRight size={16} />
         </a>
       </div>
     </div>
@@ -105,6 +105,7 @@ export default function GallerySection() {
 </section>
   );
 }
+
 
 
 
