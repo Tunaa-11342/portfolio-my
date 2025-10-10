@@ -47,9 +47,7 @@ export default function GallerySection() {
 
 
       <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-        Besides coding, I also love exploring creative directions — from
-        illustrations and photo editing to photography. Here are some of my
-        favorite works.
+      Ngoài đam mê lập trình, tôi còn yêu thích khám phá những khía cạnh sáng tạo — từ minh họa, chỉnh sửa ảnh cho đến nhiếp ảnh. Đây là một vài tác phẩm mà tôi tâm đắc nhất.
       </p>
 
       <div className="flex justify-center mt-12">
@@ -107,5 +105,6 @@ export default function GallerySection() {
 </section>
   );
 }
+
 
 
