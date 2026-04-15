@@ -20,26 +20,6 @@ const projects = [
     demoUrl: "https://my-money-blush.vercel.app/",
     githubUrl: "https://github.com/Tunaa-11342/My-money",
   },
-  {
-    id: 3,
-    title: "#",
-    description:
-      "#.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 4,
-    title: "#",
-    description:
-      "#.",
-    image: "/projects/project4.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
 ];
 
 export const ProjectsSection = () => {
